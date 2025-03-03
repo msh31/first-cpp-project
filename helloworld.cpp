@@ -22,11 +22,13 @@ bool is_human = false;
 
 int main() {
   printf(H e l l o space W o r l d exclamation);
-  
+
   if (!is_human) {
     printf("you are human!");
   }
-  printf("you are an alien!");
+  else {
+    printf("you are an alien!");
+  }
 
   return 0;
 }
